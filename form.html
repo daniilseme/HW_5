@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Урок "Формы": теги и их атрибуты</title>
+    <meta charset="utf-8">
+    <meta name ="description" content="Формы,теги,атрибуты">
+    <meta name ="keyword" content="Формы,теги,атрибуты">
+
+</head>
+<body>
+
+<h1>Урок"Формы":теги и их атрибуты</h1>
+
+<h2>Раскажите немного о себе...</h2>
+
+<p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные</p>
+<form>
+    <fieldset>
+        <legend><p><b>Коротко о себе</b></p></legend>
+
+        <p>
+            <label for="name">Имя</label>
+            <input id="name" type="text">
+        </p>
+        <p>
+            <label for="name">Фамилия</label>
+            <input id="name" type="text">
+        </p>
+        <p>
+            <label for="pol">Пол</label>
+            <input id="pol" type="radio" name="pol"> Мужской
+            <input type="radio" name="pol"> Женский
+        </p>
+        <p>
+            <label for="name">Возраст:</label>
+            <input type="text"> лет
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><p><b>Подробнее о себе</b></p></legend>
+        <p>
+            <label for="pol"></label>
+            <input id="pol" type="radio" name="pol"> Молодой человек
+            <input type="radio" name="pol"> Девушка
+        </p>
+        <p><input type="text">Дата рождения</p>
+        <p><input type="text">Семейное положение</p>
+        <p><input type="text">Социальный статус</p>
+        <p><input type="text">Местожительства</p>
+
+        <p><b>Что вы обычно делаете на выходных</b></p>
+        <p>
+            <label for="sub"></label>
+            <input id="sub" type="checkbox" name="sub" checked> Сплю
+
+            <input id="sub" type="checkbox" name="sub" > Гуляю с друзьями
+
+            <input id="sub" type="checkbox" name="sub" > Хожу на рыбалку
+
+            <input id="sub" type="checkbox" name="sub" > Играю в игры
+        </p>
+
+
+        <p><b>Расказать о формах в книге,посвященной HTML</b></p>
+
+        <p>
+            <label for="book"></label>
+            <select name="book" id="book">
+                <option value="book1">Site frequeency</option>
+                <option value="book2">Book</option>
+            </select>
+        </p>
+
+        <p><b>Сколько книг вы прочитали за свою жизнь</b></p>
+
+        <p>
+            <label for="book"></label>
+            <input id="book" type="radio" name="book" checked> 0-10
+            <input type="radio" name="book" > 11-20
+            <input type="radio" name="book" > 21-50
+            <input type="radio" name="book" > 50+
+        </p>
+        <p>
+        <p><b>Ваши коментарии:</b></p>
+        <label for="text"></label>
+        <textarea name="text" id="text" cols="40" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="position"></label>
+            <select name="position" id="position" size="3">
+                <option>Первая позиция</option>
+                <option>Вторая позиция</option>
+                <option>Третья позиция</option>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><p><b>И в заключении</b></p></legend>
+
+        <p>
+            <input type="text" placeholder="Это поле было введено до вас">
+        </p>
+
+        <p><b>Email</b></p>
+
+        <p>
+            <input type="text">
+        </p>
+
+        <p><b>Хотите подписатся на самую модную расылку спама</b></p>
+        <p><i>Выберите категории</i></p>
+
+        <p>
+            <label for="sub"></label>
+            <input id="sub" type="checkbox" name="sub" checked> Оборудование
+
+            <input id="sub" type="checkbox" name="sub" > Как приготовить обеды
+
+            <input id="sub" type="checkbox" name="sub" > Заработай миллион за два дня
+
+
+        </p>
+
+        <p><b>На сколько сложная задача</b></p>
+
+        <p>
+            <label for="task"></label>
+            <input id="task" type="radio" name="task"> Совсем нет
+            <input type="radio" name="task"> Так себе
+            <input type="radio" name="task"> Еле справился
+        </p>
+
+    </fieldset>
+    <p>
+        <input type="submit" value="Отправить">
+    </p>
+</form>
+
+<footer>
+    <p>&copy;Семененко Даниил</p>
+    <p>Контакти: <a href="mailto:semenenkodaniil1@gmail.com">
+        semenenkodaniil1@gmail.com</a>.</p>
+</footer>
+</body>
+</html>
